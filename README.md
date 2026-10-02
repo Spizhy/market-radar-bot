@@ -1,8 +1,8 @@
-# MarketRadar Bot 📡🤖
+﻿# MarketRadar Bot 📡🤖
 
 > **Autonomous B2B Competitive Intelligence & Multi-Platform Executive Briefing Bot.**
 
-[![CI](https://github.com/your-username/market-radar-bot/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/market-radar-bot/actions)
+[![CI](https://github.com/Spizhy/market-radar-bot/actions/workflows/ci.yml/badge.svg)](https://github.com/Spizhy/market-radar-bot/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python: 3.11+](https://img.shields.io/badge/python-3.11%2B-brightgreen.svg)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688.svg)](https://fastapi.tiangolo.com)
@@ -63,7 +63,7 @@ flowchart TD
 
 ### 1. Installation
 ```bash
-git clone https://github.com/your-username/market-radar-bot.git
+git clone https://github.com/Spizhy/market-radar-bot.git
 cd market-radar-bot
 
 python -m venv venv
