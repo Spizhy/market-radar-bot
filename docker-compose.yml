@@ -1,0 +1,19 @@
+services:
+  market-radar:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: market_radar_bot
+    environment:
+      - PORT=8001
+      - LLM_PROVIDER=mock
+      - DELIVERY_MODE=mock
+      - DATABASE_PATH=/app/data/market_radar.sqlite3
+    ports:
+      - "8001:8001"
+    volumes:
+      - radar_data:/app/data
+    restart: unless-stopped
+
+volumes:
+  radar_data:
